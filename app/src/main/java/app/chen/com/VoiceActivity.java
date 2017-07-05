@@ -34,8 +34,11 @@ public class VoiceActivity extends AppCompatActivity {
         searchView = (MaterialSearchView) findViewById(R.id.search_view);
         searchView.setVoiceSearch(true);
 
+        //设置光标的颜色
         searchView.setCursorDrawable(R.drawable.color_cursor_white);
+        //填充模拟数据
         searchView.setSuggestions(getResources().getStringArray(R.array.query_suggestions));
+        //文字变化的监听
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -51,6 +54,7 @@ public class VoiceActivity extends AppCompatActivity {
             }
         });
 
+        //打开和关闭搜索布局的监听
         searchView.setSearchViewListener(new MaterialSearchView.SearchViewListener() {
             @Override
             public void onSearchViewShow() {
