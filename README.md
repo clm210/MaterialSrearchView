@@ -1,6 +1,5 @@
 # MaterialSearchView-ChenLeon [![Android Arsenal](https://img.shields.io/badge/Android%20MaterialSearchView-Leon%20-green.svg?style=true)](https://android-arsenal.com/details/1/2842)
 
-=============
 根据需求写的一个沉浸式的搜索栏，包括根据文字搜索和语言搜索，摸索功能只是模拟的，大家可以根据自己的项目替换数据
 
 感谢 MiguelCatalan 提供的技术分享  [![Android Arsenal](https://img.shields.io/badge/Android%20MaterialSearchView-Leon%Thank_you20-green.svg?style=true)](https://android-arsenal.com/details/1/2842)
@@ -65,7 +64,6 @@ Usage
 		```
 
 
-The code is based in the Krishnakapil original concept.
 
 # License
 	Copyright 2015 Miguel Catalan Bañuls
